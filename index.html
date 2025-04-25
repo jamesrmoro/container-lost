@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container Lost – Balance on the High Seas</title>
+    <link rel="icon" type="image/png" href="./assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Container Lost – Balance on the High Seas" />
+    <link rel="stylesheet" href="./assets/css/style.css?version=3">
+</head>
+
+<body>
+    <div id="rotateWarning">Please rotate your device to portrait mode to play.</div>
+    <div id="loaderScreen">
+        <div id="loaderText">Hold tight. Waves are coming... 🌊</div>
+    </div>
+    <div class="rain-container"></div>
+    <div id="ui">
+        <div id="scoreWrapper">
+            <div id="score">Points: 0</div>
+            <div id="highScore">Recorde: 0</div>
+        </div>
+        <div id="lifeBarWrapper">
+            <div id="lifePercentage">100%</div>
+            <div id="lifeBarContainer"></div>
+        </div>
+    </div>
+
+    <div id="titleScreen">
+        <div class="titleBackground"></div>
+        <div id="titleContent">
+            <button id="startGameButton">Start</button>
+            <button id="aboutGameBtn" class="mobile-only">about game</button>
+            <div id="introText">
+                <p><strong>Year 2200</strong> – On an international transport mission, the industrial maintenance and ring-fighting robot <strong>XR-77</strong> was en route to its new destination. But something went wrong. After an unexpected storm, the freighter sank. Now, lost at sea, XR-77 awakens… Inside a floating container. Deranged consoles, insane sound systems, and hostile drones also fell into the waters. XR-77 must keep its balance on the high seas inside a container filled with uncontrollable products.</p>
+                <p>Credit music: <a href="https://pixabay.com/music/upbeat-the-ritual-percussion-ensemble-world-drums-266618" target="_blank">Kulakovka</a></p>
+                <button id="closeIntro" class="close-mobile-only">Close</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="gameWrapper" class="rocking">
+        <div id="startOverlay">
+            <div class="blurredBg"></div>
+            <button id="startBtn">Open container</button>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+    </div>
+
+    <button id="restartBtn">Play Again</button>
+    <button id="homeBtn" style="display: none;">Back to introduction</button>
+    <div class="group-top">
+        <button id="homeIconBtn" style="display: none;">
+            <img src="./assets/images/container.png" alt="">
+        </button>
+        <button id="soundToggle" style="display: none;">🔊 ON</button>
+    </div>
+    <div class="ocean">
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+
+    <script src="./assets/js/createjs.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+</html>
