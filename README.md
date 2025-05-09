@@ -1,4 +1,5 @@
 # 🛳️ Container Lost: Balance on the High Seas
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ![Container Lost Screenshot](http://container-lost.jamesrmoro.me/assets/images/intro-desktop.jpg)
 
