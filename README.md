@@ -1,5 +1,4 @@
 # 🛳️ Container Lost: Balance on the High Seas
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ![Container Lost Screenshot](http://container-lost.jamesrmoro.me/assets/images/intro-desktop.jpg)
 
@@ -20,11 +19,16 @@
 
 ## 🕹 Controls
 
-- **Desktop**: Arrow keys 
+- **Desktop**: Arrow keys or spacebar  
 - **Mobile**: Tap left or right side of the screen  
 
 ## 🎮 Game Jams
 
 This game was created for the following challenges:
 
-- <a href="https://gamedevjs.com/jam/2025/" target="_blank" rel="noopener noreferrer">GameDev.js Jam 2025</a> – Theme: *Balance*
+- [GameDev.js Jam 2025](https://gamedevjs.com/jam/2025/) – Theme: *Balance*  
+
+---
+
+Feel free to clone, fork, or explore the code.  
+Feedback and stars ⭐ are very welcome!
