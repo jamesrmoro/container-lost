@@ -1,0 +1,45 @@
+{
+  "name": "Container Lost – Balance on the High Seas",
+  "short_name": "Container Lost",
+  "description": "Ajude o robô XR-77 a se equilibrar em um contêiner perdido em alto-mar.",
+  "id": "https://container-lost.sprintcodes.com.br/",
+  "start_url": "https://container-lost.sprintcodes.com.br/",
+  "scope": "https://container-lost.sprintcodes.com.br/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a3d62",
+  "theme_color": "#0a3d62",
+  "categories": ["games", "entertainment"],
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "https://container-lost.sprintcodes.com.br/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://container-lost.sprintcodes.com.br/screen-pwa/screen-1.jpg",
+      "sizes": "1080x1907",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Tela inicial de Container Lost"
+    },
+    {
+      "src": "https://container-lost.sprintcodes.com.br/screen-pwa/screen-2.jpg",
+      "sizes": "1080x1907",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Jogabilidade em alto-mar"
+    },
+    {
+      "src": "https://container-lost.sprintcodes.com.br/screen-pwa/screen-3.jpg",
+      "sizes": "1080x1907",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Desafio de equilíbrio do XR-77"
+    }
+  ]
+}
