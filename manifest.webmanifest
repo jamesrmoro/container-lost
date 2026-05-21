@@ -2,14 +2,17 @@
   "name": "Container Lost – Balance on the High Seas",
   "short_name": "Container Lost",
   "description": "Ajude o robô XR-77 a se equilibrar em um contêiner perdido em alto-mar.",
-  "id": "https://container-lost.sprintcodes.com.br/",
-  "start_url": "https://container-lost.sprintcodes.com.br/",
-  "scope": "https://container-lost.sprintcodes.com.br/",
+  "id": "container-lost",
+  "start_url": "https://container-lost.sprintcodes.com.br",
+  "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#0a3d62",
   "theme_color": "#0a3d62",
-  "categories": ["games", "entertainment"],
+  "categories": [
+    "games",
+    "entertainment"
+  ],
   "lang": "pt-BR",
   "icons": [
     {
